@@ -7,11 +7,9 @@ https://github.com/JoeArchV/RASTREADOR-FANTASMA.git
   <img height="150" src="https://github.com/JoeArchV/RASTREADOR-FANTASMA/blob/main/menu.png?raw=true"  />
 </div>
 
-
-
 porfavor reporte errores es compatible con archlinux y derivadas tambien con debian y derivadas
 
-dependencia 
+# dependencia 
 ```shell
 sudo pacman -S python-phonenumbers
 ```
