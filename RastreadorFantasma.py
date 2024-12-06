@@ -36,7 +36,7 @@ def IP_Track():
     req_api = requests.get(f"http://ipwho.is/{ip}")
     ip_data = json.loads(req_api.text)
     time.sleep(2)
-    print(f"{Wh}\n IP                   :{Gr}", ip)
+    print(f"{Wh}\n IP                  :{Gr}", ip)
     print(f"{Wh} TIPO DE IP            :{Gr}", ip_data["type"])
     print(f"{Wh} PAIS                  :{Gr}", ip_data["country"])
     print(f"{Wh} CODIGO DE PAIS        :{Gr}", ip_data["country_code"])
