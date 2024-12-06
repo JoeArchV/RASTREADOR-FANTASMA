@@ -11,3 +11,7 @@ https://github.com/JoeArchV/RASTREADOR-FANTASMA.git
 
 porfavor reporte errores es compatible con archlinux y derivadas tambien con debian y derivadas
 
+dependencia 
+```shell
+sudo pacman -S python-phonenumbers
+```
